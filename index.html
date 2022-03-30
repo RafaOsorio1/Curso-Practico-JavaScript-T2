@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/Mobile.css">
+    <title>Taller 2</title>
+</head>
+<body>
+    <header>
+        <h1 class="tittle">Calculadora de descuentos</h1>
+    </header>
+    <main>
+        <section class="entradas">
+            <label for="price" class="labelInput">
+                Ingresa el costo del producto
+            </label>
+            <input type="number" placeholder="Ej: 200000" id="price" class="input">
+            <label for="price-discount" class="labelInput">
+                Ingresa el porcentaje de descuento
+            </label>
+            <input type="number" placeholder="Ej: 50" id="price-discount" class="input" >
+            <label for="cupones" class="labelInputOption">¿Tienes un cupon?</label>
+            <select name="cupones" class="menu" id="cupones">
+                <option class="itemsCup" disabled selected>Selecciona tu cupón</option>
+                <option class="itemsCup" value="10">Cupón</option>
+                <option class="itemsCup" value="20">Cupón plus</option>
+                <option class="itemsCup" value="30">Cupón plus extra</option>
+                <option class="itemsCup" value="40">Cupón plus premiun</option>
+                <option class="itemsCup" value="50">Cupón plus premier</option>
+                <option class="itemsCup" value="100">Cupón Epico</option>
+            </select>
+            <button id="button" type="button" onclick="calcular()" class="button">
+                calcular
+            </button>
+            <div class="resultado">
+                <h4>El precio final es:</h4>
+                <p id="resultado"></p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="left">
+            <li class="items-left">Create by |SC°Mocking|</li>
+        </ul>
+        <ul class="right">
+            <li class="items-right"><a href="https://platzi.com/cursos/javascript-practico/">Proyect.Platzi.Javascript</a></li> 
+        </ul>
+    </footer>
+    <script src="./DiscountCalc.js"></script>
+</body>
+</html>
