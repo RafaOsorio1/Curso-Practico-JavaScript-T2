@@ -1,0 +1,123 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 62.5;
+    background-color: #fff;
+}
+header{
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #d6d6d6;
+}
+.tittle{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #041C32;
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.entradas{
+    width: 90%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #cccccc;
+    margin: 25px 25px;
+    border-radius: 4px;
+}
+.labelInput{
+    display: inline-block;
+    margin: 8px 0 8px 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #041C32;
+    cursor: pointer;
+}
+.labelInputOption{
+    display: inline-block;
+    margin: 8px 11px 8px 11px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #041C32;
+    cursor: pointer;
+}
+.input{
+    width: 250px;
+    height: 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: black;
+    box-shadow: 0px 4px 8px gray;
+}
+.menu{
+    font-style: oblique;
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    width: 170px;
+    height: 24px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.button{
+    width: 250px;
+    height: 20px;
+    border-radius: 6px;
+    border: 0;
+    background-color: #041C32;
+    margin-bottom: 5px;
+    color: white;
+    cursor: pointer;
+}
+.resultado{
+    height: 50px;
+    margin-top: 8px;
+    border-radius: 6px;
+    background-color: rgb(235, 235, 235);
+}
+footer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45px;
+    background-color: #041C32;
+}
+footer .left{
+    margin-left: 20px;
+}
+footer .left li{
+    font-size: 0.7rem;
+    color: #ECB365;
+    list-style: none;
+}
+footer .right{
+    margin-left: 80px;
+}
+footer .right li{
+    font-size: 0.7rem;
+    list-style: none;
+}
+footer .right li a{
+    text-decoration: none;
+    color: #ECB365;
+}
+
+
